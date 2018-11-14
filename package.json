@@ -1,0 +1,31 @@
+{
+  "name": "demo-litelement-unit-tests",
+  "version": "1.0.0",
+  "description": "demo project to try out unit tests for LitElement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffLeFoll/demo-LitElement-unit-tests.git"
+  },
+  "author": "@JeffLeFoll",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JeffLeFoll/demo-LitElement-unit-tests/issues"
+  },
+  "homepage": "https://github.com/JeffLeFoll/demo-LitElement-unit-tests#readme",
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.3"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.1.3",
+    "web-component-tester": "^6.9.0",
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^5.2.4",
+    "chai": "^4.0.2",
+    "mocha": "^5.0.5",
+    "wct-browser-legacy": "^1.0.1"
+  }
+}
